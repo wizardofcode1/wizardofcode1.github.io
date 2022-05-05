@@ -1,0 +1,146 @@
+body { /* no . means element type */
+     text-align: center; /* text-align centers text AND children */
+}
+
+/*modify the elements of the page*/
+      
+.avatar-container .Player-username {
+     font-size: 2em;
+     font-family: "papyrus", fantasy;
+     color:rgba(104, 118, 243, 0.685);
+    }
+
+.ratings-container{
+	background-color:#282828;
+	border: solid;
+	border-color: #606060;
+	border-width: 0.5px;
+}
+
+.container {
+    max-width: none !important;
+   background-image: url('https://images.unsplash.com/photo-1566345984367-fa2ba5cedc17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80');
+}
+ 
+/*HIDE PARTS*/
+.ratings-row {
+	display: none !important;
+}
+
+.col-sm-4{
+	display: none !important;
+}
+
+/*library results*/
+
+.library-won-result-vs-stronger{  background-color: RGBA( 255, 182, 193, 1 ) !important; color:black !important;}
+.library-won-result-vs-weaker{  background-color: RGBA( 255, 160, 122, 1 ) !important; color:black !important;}
+.library-lost-result-vs-weaker {  background-color: RGBA( 32, 178, 170, 1 ) !important; color:black !important;}
+.library-lost-result-vs-stronger{  background-color: RGBA( 135, 206, 250, 1 ) !important; color:black !important;}
+
+/* the game history table*/
+
+.library-lost-result-unranked {  color: RGBA( 255, 182, 193, 1 ) !important;}
+.library-won-result-unranked { color: RGBA( 32, 178, 170, 1 ) !important;}
+
+/*pie chart
+.strong-wins
+.strong-losses {   fill:rgba(104, 118, 243, 0.685) !important;}
+.weak-wins
+.weak-losses*/
+
+/*fonts and solors*/
+ 
+h2 {
+	font-family: "papyrus", fantasy;
+        color:RGBA( 0, 206, 209, 1 );
+}
+
+h3 {
+   color: rgba(0, 140, 255, 0.76);
+   font-family: "papyrus", fantasy;
+  }
+
+h4{
+   color: rgba(0, 140, 255, 0.76));
+   font-family: "papyrus", fantasy;
+}
+
+.camille {
+     /*font-family: "Book Antiqua", serif;
+     color:RGBA( 0, 128, 128, 1 );*/
+	RGBA( 0, 206, 209, 1 )
+	font-family: "papyrus", fantasy;
+	position: static;
+	left:0;
+}
+
+p {
+  color: rgba(0, 140, 255, 0.76);
+   font-family: "Lucida Handwriting", cursive; 
+}
+
+/*IMAGES AND SHAPING*/	
+
+span.test{
+  display: inline-block;
+  padding: 0 10% ;
+  color: rgba(0, 140, 255, 0.76);
+}
+
+.image {
+width: 20%;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.images {
+ width: 7%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 40px;
+}
+
+/*ANIMATION*/
+
+.about-container h1 {
+    color:rgba(247, 163, 38, 0.89);
+	/*color:RGBA( 0, 206, 209, 1 );*/
+   font-family: "Lucida Handwriting", cursive; 
+    font-size: 3em;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: scrolling 15s linear infinite;
+    -webkit-animation: scrolling 15s linear infinite;
+    animation: scrolling 15s linear infinite;
+}
+
+
+/* Move it (define the animation) */
+@-moz-keyframes scrolling {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scrolling {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scrolling {
+     0%   { 
+        -moz-transform: translateX(100%); /* Firefox bug fix */
+        -webkit-transform: translateX(100%); /* Firefox bug fix */
+        transform: translateX(100%); 		
+    }
+    100% { 
+        -moz-transform: translateX(-100%); /* Firefox bug fix */
+        -webkit-transform: translateX(-100%); /* Firefox bug fix */
+        transform: translateX(-100%); 
+    }
+}
