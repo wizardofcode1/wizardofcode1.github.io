@@ -19,13 +19,7 @@ body { /* no . means element type */
 }
  
 /*HIDE PARTS*/
-.ratings-row {
-	display: none !important;
-}
 
-.col-sm-4{
-	display: none !important;
-}
 
 /*library results*/
 
