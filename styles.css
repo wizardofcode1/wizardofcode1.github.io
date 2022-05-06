@@ -137,3 +137,27 @@ border-radius: 40px;
 
 
 /*rainbow flashing text */
+h2, h3 {
+    animation:rainbowText 2s infinite;
+}
+@keyframes rainbowText{
+    0%   {  color: #FF0900; }
+    17%  {  color: #FF7F00; }
+    33%  {  color: #FFEF00; }
+    50%  {  color: #00F11D; }
+    67%  {  color: #0079FF; }
+    83%  {  color: #A800FF; }
+    100% {  color: #FF0900; }
+}
+
+
+.about-container h3 {
+    animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+    0%   {  opacity: 1; }
+    49%  {  opacity: 1; }
+    60%  {  opacity: 0; }
+    99%  {  opacity: 0; }
+    100% {  opacity: 1; }
+}
