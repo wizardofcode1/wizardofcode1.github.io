@@ -151,3 +151,13 @@ h4, h5 {
 }
 
 
+.about-container h3 {
+    animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+    0%   {  opacity: 1; }
+    49%  {  opacity: 1; }
+    60%  {  opacity: 0; }
+    99%  {  opacity: 0; }
+    100% {  opacity: 1; }
+}
