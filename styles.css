@@ -151,7 +151,7 @@ h2, h3 {
 }
 
 
-.about-container h3 {
+.about-container h2 {
     animation:blinkingText 1.5s infinite;
 }
 @keyframes blinkingText{
