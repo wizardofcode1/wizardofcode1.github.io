@@ -137,7 +137,7 @@ border-radius: 40px;
 }
 
 
-rainbow flashing text 
+/* rainbow flashing text */
 h2, h3 {
     animation:rainbowText 2s infinite;
 }
