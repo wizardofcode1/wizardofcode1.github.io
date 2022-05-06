@@ -39,10 +39,9 @@ body { /* no . means element type */
 .weak-wins
 .weak-losses*/
 
-/*fonts and solors*/
+/*fonts and colors*/
  
-/*Remove this, its being overlapped by the rainbow text /*
-/* h2 {
+h2 {
 	font-family: "papyrus", fantasy;
         color:RGBA( 0, 206, 209, 1 );
 } 
