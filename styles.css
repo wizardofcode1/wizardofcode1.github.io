@@ -21,17 +21,17 @@ body { /* no . means element type */
 /*HIDE PARTS*/
 
 
-/*library results*/
+/*library results
 
 .library-won-result-vs-stronger{  background-color: RGBA( 255, 182, 193, 1 ) !important; color:black !important;}
 .library-won-result-vs-weaker{  background-color: RGBA( 255, 160, 122, 1 ) !important; color:black !important;}
 .library-lost-result-vs-weaker {  background-color: RGBA( 32, 178, 170, 1 ) !important; color:black !important;}
-.library-lost-result-vs-stronger{  background-color: RGBA( 135, 206, 250, 1 ) !important; color:black !important;}
+.library-lost-result-vs-stronger{  background-color: RGBA( 135, 206, 250, 1 ) !important; color:black !important;} */
 
 /* the game history table*/
 
-.library-lost-result-unranked {  color: RGBA( 255, 182, 193, 1 ) !important;}
-.library-won-result-unranked { color: RGBA( 32, 178, 170, 1 ) !important;}
+/* .library-lost-result-unranked {  color: RGBA( 255, 182, 193, 1 ) !important;} 
+.library-won-result-unranked { color: RGBA( 32, 178, 170, 1 ) !important;} */
 
 /*pie chart
 .strong-wins
