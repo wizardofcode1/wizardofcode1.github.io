@@ -43,30 +43,30 @@ body { /* no . means element type */
  
 h2 {
 	font-family: "papyrus", fantasy;
-        color:RGBA(246, 130, 130);
+        color:RGBA(188,	130, 246);
 } 
 
 h3 {
-   color: rgb(246, 130, 130);
+   color: rgb(188, 130, 246);
    font-family: "papyrus", fantasy;
   } 
 
 h4{
-   color: rgb(246, 130, 130));
+   color: rgb(188, 130, 246));
    font-family: "papyrus", fantasy;
 }
 
 .camille {
      /*font-family: "Book Antiqua", serif;
      color:RGBA( 0, 128, 128, 1 );*/
-	RGBA(246, 130, 130)
+	RGBA(188, 130, 246)
 	font-family: "papyrus", fantasy;
 	position: static;
 	left:0;
 }
 
 p {
-  color: rgba(246, 130, 130);
+  color: rgba(188, 130, 246);
    font-family: "Lucida Handwriting", cursive; 
 }
 
@@ -75,7 +75,7 @@ p {
 span.test{
   display: inline-block;
   padding: 0 10% ;
-  color: rgba(246, 130, 130);
+  color: rgba(188, 130, 246);
 }
 
 .image {
@@ -95,7 +95,7 @@ border-radius: 40px;
 /*ANIMATION*/
 
 .about-container h1 {
-    color:rgba(246, 130, 130);
+    color:rgba(188, 130, 246);
 	/*color:RGBA( 0, 206, 209, 1 );*/
    font-family: "Lucida Handwriting", cursive; 
     font-size: 3em;
