@@ -75,7 +75,7 @@ p {
 span.test{
   display: inline-block;
   padding: 0 10% ;
-  color: rgba(0, 140, 255, 0.76);
+  color: rgba(246, 130, 130);
 }
 
 .image {
@@ -95,7 +95,7 @@ border-radius: 40px;
 /*ANIMATION*/
 
 .about-container h1 {
-    color:rgba(247, 163, 38, 0.89);
+    color:rgba(246, 130, 130);
 	/*color:RGBA( 0, 206, 209, 1 );*/
    font-family: "Lucida Handwriting", cursive; 
     font-size: 3em;
