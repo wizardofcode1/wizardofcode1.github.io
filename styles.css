@@ -53,21 +53,21 @@ h3 {
 
 h4{
    color: rgb(255, 204, 102);
-   font-family: "arial"
+   font-family: "papyrus"
 }
 
 .camille {
      /*font-family: "Book Antiqua", serif;
      color:RGBA( 0, 128, 128, 1 );*/
 	RGBA(255, 204, 102);
-	font-family: "arial"
+	font-family: "papyrus"
 	position: static;
 	left:0;
 }
 
 p {
   color: rgba(255, 204, 102);
-   font-family: "arial"
+   font-family: "papyrus"
 }
 
 /*IMAGES AND SHAPING*/	
@@ -97,7 +97,7 @@ border-radius: 40px;
 .about-container h1 {
     color:rgba(237, 247, 242);
 	/*color:RGBA( 0, 206, 209, 1 );*/
-   font-family: "arial"
+   font-family: "papyrus"
     font-size: 3em;
     position: absolute;
     width: 100%;
