@@ -41,7 +41,7 @@ body { /* no . means element type */
 
 /*fonts and colors*/
  
-h2 {
+/* h2 {
 	font-family: "papyrus", fantasy;
         color:RGBA(255, 204, 102);
 } 
@@ -49,7 +49,7 @@ h2 {
 h3 {
    color: rgb(255, 204, 102);
    font-family: "papyrus", fantasy;
-  } 
+  } */
 
 h4{
    color: rgb(255, 204, 102);
