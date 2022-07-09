@@ -42,7 +42,7 @@ body { /* no . means element type */
 /*fonts and colors*/
  
 h2 {
-	font-family: "Playfair"
+	font-family: "Modak"
         /* color:RGBA(255, 204, 102); */
 } 
 
@@ -53,7 +53,7 @@ h3 {
 
 h4{
    color: rgb(255, 204, 102);
-   font-family: "papyrus", fantasy;
+   font-family: "Modak"
 }
 
 .camille {
