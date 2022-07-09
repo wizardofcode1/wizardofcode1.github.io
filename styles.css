@@ -42,7 +42,7 @@ body { /* no . means element type */
 /*fonts and colors*/
  
 h2 {
-	font-family: "Dosis"
+	font-family: "Roboto"
         /* color:RGBA(255, 204, 102); */
 } 
 
@@ -60,7 +60,7 @@ h4{
      /*font-family: "Book Antiqua", serif;
      color:RGBA( 0, 128, 128, 1 );*/
 	RGBA(255, 204, 102);
-	font-family: "papyrus", fantasy;
+	font-family: "Roboto"
 	position: static;
 	left:0;
 }
