@@ -48,12 +48,12 @@ h2 {
 
 h3 {
    color: rgb(255, 204, 102);
-   font-family: "papyrus", fantasy;
+   font-family: "Roboto"
   } 
 
 h4{
    color: rgb(255, 204, 102);
-   font-family: "Modak"
+   font-family: "Roboto"
 }
 
 .camille {
@@ -67,7 +67,7 @@ h4{
 
 p {
   color: rgba(255, 204, 102);
-   font-family: "papyrus", fantasy;
+   font-family: "Roboto"
 }
 
 /*IMAGES AND SHAPING*/	
