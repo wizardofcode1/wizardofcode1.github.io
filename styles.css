@@ -43,7 +43,7 @@ body { /* no . means element type */
  
 h2 {
 	font-family: "Playfair"
-        color:RGBA(255, 204, 102);
+        /* color:RGBA(255, 204, 102); */
 } 
 
 h3 {
