@@ -3,10 +3,6 @@ body { /* no . means element type */
 }
 
 
-/* font import (mine) */
-<style> 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-</style> 
 
 /*modify the elements of the page*/
       
@@ -46,7 +42,12 @@ body { /* no . means element type */
 .weak-losses*/
 
 /*fonts and colors*/
- 
+
+ /* font import (mine) */
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+</style> 
+
 h2 {
 	font-family: "Baloo 2"
 		
