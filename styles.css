@@ -167,3 +167,7 @@ h1, h2, h3 {
     99%  {  opacity: 0; }
     100% {  opacity: 1; }
 } */
+
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+</style> 
