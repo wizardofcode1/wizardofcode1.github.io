@@ -42,32 +42,32 @@ body { /* no . means element type */
 /*fonts and colors*/
  
 h2 {
-	font-family: "Roboto"
+	font-family: "Baloo 2"
         /* color:RGBA(255, 204, 102); */
 } 
 
 h3 {
    color: rgb(255, 204, 102);
-   font-family: "Roboto"
+   font-family: "Baloo 2"
   } 
 
 h4{
    color: rgb(255, 204, 102);
-   font-family: "Roboto"
+   font-family: "Baloo 2"
 }
 
 .camille {
      /*font-family: "Book Antiqua", serif;
      color:RGBA( 0, 128, 128, 1 );*/
 	RGBA(255, 204, 102);
-	font-family: "Roboto"
+	font-family: "Baloo 2"
 	position: static;
 	left:0;
 }
 
 p {
   color: rgba(255, 204, 102);
-   font-family: "Roboto"
+   font-family: "Baloo 2"
 }
 
 /*IMAGES AND SHAPING*/	
@@ -97,7 +97,7 @@ border-radius: 40px;
 .about-container h1 {
     color:rgba(237, 247, 242);
 	/*color:RGBA( 0, 206, 209, 1 );*/
-   font-family: "Roboto"
+   font-family: "Baloo 2"
     /* font-size: 3em;
     position: absolute;
     width: 100%;
