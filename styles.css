@@ -49,20 +49,20 @@ body { /* no . means element type */
  
 h2 {
 	font-family: "Baloo 2"
-		text-align: center
+		
         /* color:RGBA(255, 204, 102); */
 } 
 
 h3 {
    color: rgb(255, 204, 102);
    font-family: "Baloo 2"
-	   text-align: center
+	   
   } 
 
 h4{
    color: rgb(255, 204, 102);
    font-family: "Baloo 2"
-	   text-align: center
+	  
 }
 
 .camille {
