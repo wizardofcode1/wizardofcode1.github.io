@@ -1,5 +1,3 @@
-/* font import (mine) */
-
 body { /* no . means element type */
      text-align: center; /* text-align centers text */
 }
@@ -168,6 +166,8 @@ h1, h2, h3 {
     100% {  opacity: 1; }
 } */
 
+
+/* font import (mine) */
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 </style> 
