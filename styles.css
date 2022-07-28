@@ -8,8 +8,6 @@ body { /* no . means element type */
      text-align: center; /* text-align centers text */
 }
 
-
-
 /*modify the elements of the page*/
       
 
@@ -30,7 +28,6 @@ body { /* no . means element type */
 
 
 /*library results
-
 .library-won-result-vs-stronger{  background-color: RGBA( 255, 182, 193, 1 ) !important; color:black !important;}
 .library-won-result-vs-weaker{  background-color: RGBA( 255, 160, 122, 1 ) !important; color:black !important;}
 .library-lost-result-vs-weaker {  background-color: RGBA( 32, 178, 170, 1 ) !important; color:black !important;}
@@ -47,28 +44,21 @@ body { /* no . means element type */
 .weak-wins
 .weak-losses*/
 
-
-
 /*fonts and colors*/
-
- /* font import (mine) */
-
+ 
 h2 {
 	font-family: "Baloo 2"
-		
         /* color:RGBA(255, 204, 102); */
 } 
 
 h3 {
    color: rgb(255, 204, 102);
    font-family: "Baloo 2"
-	   
   } 
 
 h4{
    color: rgb(255, 204, 102);
    font-family: "Baloo 2"
-	  
 }
 
 .camille {
@@ -127,3 +117,53 @@ border-radius: 40px;
     -webkit-animation: scrolling 15s linear infinite;
     animation: scrolling 15s linear infinite; */
 }
+
+
+/* Move it (define the animation) */
+@-moz-keyframes scrolling {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scrolling {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scrolling {
+     0%   { 
+        -moz-transform: translateX(100%); /* Firefox bug fix */
+        -webkit-transform: translateX(100%); /* Firefox bug fix */
+        transform: translateX(100%); 		
+    }
+    100% { 
+        -moz-transform: translateX(-100%); /* Firefox bug fix */
+        -webkit-transform: translateX(-100%); /* Firefox bug fix */
+        transform: translateX(-100%); 
+    }
+}
+
+
+/* rainbow flashing text */
+h1, h2, h3 {
+    animation:rainbowText 2s infinite;
+}
+@keyframes rainbowText{
+    0%   {  color: #FF0900; }
+    17%  {  color: #FF7F00; }
+    33%  {  color: #FFEF00; }
+    50%  {  color: #00F11D; }
+    67%  {  color: #0079FF; }
+    83%  {  color: #A800FF; }
+    100% {  color: #FF0900; }
+}
+
+
+/* .about-container h3 {
+    animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+    0%   {  opacity: 1; }
+    49%  {  opacity: 1; }
+    60%  {  opacity: 0; }
+    99%  {  opacity: 0; }
+    100% {  opacity: 1; }
+} */
