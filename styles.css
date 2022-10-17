@@ -1,7 +1,12 @@
-body {  no . means element type 
+/* body {  no . means element type 
      text-align: center;  text-align centers text 
 }
+*/ //this code did not work, lemme try yewang's code below
 
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+}
 
 
 /* The text beneath doesne't work because both <styles>....</style> and the code beneath have to be the first line of code on styles.css to work. I tried, making separate styles.css for each of these of it didn't work, until then, I will choose the friendly font to work over having centered text */
