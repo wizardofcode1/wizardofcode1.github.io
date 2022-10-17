@@ -1,12 +1,14 @@
-<style> 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-</style> 
+body {  no . means element type 
+     text-align: center;  text-align centers text 
+}
+
 
 
 /* The text beneath doesne't work because both <styles>....</style> and the code beneath have to be the first line of code on styles.css to work. I tried, making separate styles.css for each of these of it didn't work, until then, I will choose the friendly font to work over having centered text */
-body { /* no . means element type */
-     text-align: center; /* text-align centers text */
-}
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+</style>
+*/
 
 /*modify the elements of the page*/
       
