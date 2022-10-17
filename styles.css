@@ -1,12 +1,12 @@
 /* body {  no . means element type 
      text-align: center;  text-align centers text 
 }
-*/ */ this code did not work, lemme try yewang's code below */
+this code did not work, lemme try yewang's code below */
 
 /* body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     text-align: center;
-} */ */ didn't work let's try my original again with comments added */
+}  didn't work let's try my original again with comments added */
 
 body { /* no . means element type */
      text-align: center; /* text-align centers text */
