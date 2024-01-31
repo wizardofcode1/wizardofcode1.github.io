@@ -164,10 +164,9 @@ h1, h2, h3 {
 }
 @keyframes rainbowText{
     0%   {  color: #FFFFD2; }
-    25%  {  color: #C5FAD5; }
-    50%  {  color: #AA96DA; }
-    75%  {  color: #adceea; }
-    100%  {  color: #0079FF; }
+    33%  {  color: #C5FAD5; }
+    66%  {  color: #AA96DA; }
+    100%  {  color: #adceea; }
 }
 
 
