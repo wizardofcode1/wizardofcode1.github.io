@@ -174,9 +174,10 @@ h1, h2, h3 {
     animation:blinkingText 1.5s infinite;
 }
 @keyframes blinkingText{
-    0%   {  opacity: 1; }
-    49%  {  opacity: 1; }
-    60%  {  opacity: 0; }
-    99%  {  opacity: 0; }
-    100% {  opacity: 1; }
+    0%   {  color: #D9B01C; }
+    20%  {  color: #CC9900; }
+    40%  {  color: #B8860B; }
+    60%  {  color: #333333; }
+    80%  {  color: #1C1C1C; }
+    100%  {  color: #090909; }
 } */
