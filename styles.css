@@ -163,12 +163,13 @@ h1, h2, h3 {
     animation:rainbowText 2s infinite;
 }
 @keyframes rainbowText{
-    0%   {  color: #3A4162; }
-    20%  {  color: #336E83; }
-    40%  {  color: #FFF5D0; }
-    60%  {  color: #F7CE72; }
-    80%  {  color: #F77269; }
-    100% {  color: #D04F45; }
+    0%   {  color: #008080; }
+    17%  {  color: #FF7F50; }
+    33%  {  color: #FFDB58`; }
+    50%  {  color: #E6E6FA; }
+    67%  {  color: #808000; }
+    83%  {  color: #708090; }
+    100% {  color: #800000; }
 }
 
 
