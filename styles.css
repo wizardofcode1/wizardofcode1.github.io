@@ -61,8 +61,10 @@ body { /* no . means element type */
 .weak-losses*/
 
 /*fonts and colors*/
+
+
  
-h2 {
+/*    h2 {
 	font-family: "Baloo 2"
         /* color:RGBA(255, 204, 102); */
 } 
@@ -181,3 +183,5 @@ h1, h2, h3 {
     80%  {  color: #1C1C1C; }
     100%  {  color: #090909; }
 } */
+
+*/
