@@ -64,19 +64,22 @@ body { /* no . means element type */
 
 
  
-/*    h2 {
+/*   h2 {
 	font-family: "Baloo 2"
         /* color:RGBA(255, 204, 102); */
 } 
-h3 {
+/* h3 {
    color: rgb(255, 204, 102);
    font-family: "Baloo 2"
   } 
+*/
+/*
 h4{
    color: rgb(255, 204, 102);
    font-family: "Baloo 2"
 }
-
+*/
+/*
 .camille {
      /*font-family: "Book Antiqua", serif;
      color:RGBA( 0, 128, 128, 1 );*/
@@ -85,12 +88,14 @@ h4{
 	position: static;
 	left:0;
 }
-
+*/
+/*
 p {
   color: rgba(255, 204, 102);
    font-family: "Baloo 2"
 }
-
+*/
+/*
 /*IMAGES AND SHAPING*/	
 
 span.test{
@@ -98,21 +103,24 @@ span.test{
   padding: 0 10% ;
   color: rgba(255, 204, 102);
 }
-
+*/
+/*
 .image {
 width: 20%;
 border-radius: 20px;
 margin-left: auto;
 margin-right: auto;
 }
-
+*/
+/*
 .images {
  width: 7%;
 margin-left: auto;
 margin-right: auto;
 border-radius: 40px;
 }
-
+*/
+/*
 /*ANIMATION*/
 
 .about-container h1 {
@@ -133,13 +141,16 @@ border-radius: 40px;
     -webkit-animation: scrolling 15s linear infinite;
     animation: scrolling 15s linear infinite; */
 }
-
+*/
+/*
 
 /* Move it (define the animation) */
 @-moz-keyframes scrolling {
     0%   { -moz-transform: translateX(100%); }
     100% { -moz-transform: translateX(-100%); }
 }
+*/
+/*
 @-webkit-keyframes scrolling {
     0%   { -webkit-transform: translateX(100%); }
     100% { -webkit-transform: translateX(-100%); }
@@ -156,7 +167,8 @@ border-radius: 40px;
         transform: translateX(-100%); 
     }
 }
-
+*/
+/*
 
 /* rainbow flashing text */
 h1, h2, h3 {
@@ -168,7 +180,7 @@ h1, h2, h3 {
     66%  {  color: #C5299BFF`; }
     100%  {  color: #FEAE51FF; }
 }
-
+*/
 
 /* .about-container h3 {
     animation:blinkingText 1.5s infinite;
