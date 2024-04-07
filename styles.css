@@ -1,4 +1,9 @@
 .container {
     max-width: none !important;
-   background-image: url('https://i.ibb.co/XXbFTm8/DALL-E-2024-04-07-15-47-17-Create-a-background-image-that-blends-well-with-a-blue-and-yellow-color-t.webp');
+    background-image: url('https://i.ibb.co/XXbFTm8/DALL-E-2024-04-07-15-47-17-Create-a-background-image-that-blends-well-with-a-blue-and-yellow-color-t.webp');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* Ensure the container is at least the height of the viewport if needed */
+    min-height: 100vh; /* vh = viewport height. Adjust as necessary for your design */
 }
